@@ -82,7 +82,7 @@ p{
     left: 0px;
     top: 0px;
     border-radius: 8px;
-    border: 3px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
@@ -117,22 +117,22 @@ p{
 
 /* Acende apenas a borda da imagem. */
 .aline_img img:hover {
-    outline: solid 3px #ffffff;
+    outline: solid 1px #ffffff;
     transition: 0.5s;
 }
 
 .pedrinho_img img:hover {
-    outline: solid 3px #ffffff;
+    outline: solid 1px #ffffff;
     transition: 0.5s;
 }
 
 .julia_img img:hover {
-    outline: solid 3px #ffffff;
+    outline: solid 1px #ffffff;
     transition: 0.5s;
 }
 
 .adicionar_img img:hover {
-    outline: solid 3px #ffffff;
+    outline: solid 1px #ffffff;
     transition: 0.5s;
     filter:brightness(1.4)   
 }
