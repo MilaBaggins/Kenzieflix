@@ -1,0 +1,144 @@
+html, body, div, h1, h2, h3, p, a, em, img, small, strong, ul, li, article, aside, footer, header, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    outline: none;
+    text-decoration: none;
+    cursor: inherit;   
+}
+
+.body{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limite_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    width: 700px;
+    height: 700px;
+    font-family: IBM Plex Sans;
+    transition: 0.5s;
+}
+
+/* "Div para alinhar os elementos sem o uso do margin" */
+.limite_container_elementos{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 640px;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+.kenzieflix{
+    left: 517px;
+    top: 42px;
+    width: 229px;
+    height: 68px;
+
+}
+
+.quem_esta_assistindo{
+    line-height: 42px;
+    height: 42px;
+    width: 334px;
+    left: 464px;
+    top: 183px;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.avatares{
+    color: #9C9C9C;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    gap: 20px;    
+    transition: 0.5s;
+}
+img{
+    border-radius: 8px;
+}
+
+p{
+    margin-top: 12px;  
+}
+
+.gerenciar_perfis button{
+    background-color: #000000;
+    height: 50px;
+    width: 206px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    border: 3px solid #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/* HOVER */
+
+/* Clica no Card e acende o nome junto */
+.card_aline:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.card_pedrinho:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.card_julia:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.card_adicionar:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+/* Acende apenas a borda da imagem. */
+.aline_img img:hover {
+    outline: solid 3px #ffffff;
+    transition: 0.5s;
+}
+
+.pedrinho_img img:hover {
+    outline: solid 3px #ffffff;
+    transition: 0.5s;
+}
+
+.julia_img img:hover {
+    outline: solid 3px #ffffff;
+    transition: 0.5s;
+}
+
+.adicionar_img img:hover {
+    outline: solid 3px #ffffff;
+    transition: 0.5s;
+    filter:brightness(1.4)   
+}
+
+.gerenciar_perfis button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s; 
+}
